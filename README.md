@@ -13,3 +13,5 @@ Playing with new React javascript build tool, performance is considerably better
 
 * npm install -D tailwindcss postcss autoprefixer
 * npx tailwindcss init -p
+* The content setup can be found under tailwind.config.cjs content bracket, we're using setup for Vite boilerplate scaffolding
+* Custom colors should be added under tailwind.config theme -> extend -> colors, https://www.youtube.com/watch?v=6yFazMin-d0&ab_channel=PixelRocket
