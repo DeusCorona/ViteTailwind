@@ -1,4 +1,5 @@
 import React,{useState} from 'react';
+import Logo from '../../assets/logo.png'
 
 const NavBar = () => {
 
@@ -10,31 +11,29 @@ const NavBar = () => {
 
     return (
         <div>
-            <div className="selection:bg-tangerine text-white bg-charcoal">
+            <div className="selection:bg-azure text-white bg-transparent">
                 <div className="flex flex-row justify-between items-center px-4 py-4 sm:px-6">
-                    <div className="text-2xl">Company name</div>
-                    <ul className={navbarState? "fixed top-0 right-0 block md:relative md:flex-row md:justify-between" : "fixed top-0 right-0 hidden md:block md:relative md:flex-row md:justify-between"}>
-                        <div className="flex flex-col md:flex-row gap-4 md:gap-0 md:mt-0 px-4 py-4 sm:px-6 sm:py-6 md:p-0 min-h-[100vh] md:min-h-0 min-w-[50vw] md:min-w-0 bg-charcoal/95 z-1 rounded-lg">
+                    <div>
+                        <img src={Logo} alt="LogoImg" />
+                    </div>
+                    <ul className={navbarState? "fixed top-0 right-0 block md:relative md:flex-row md:justify-between bg-charcoal md:bg-transparent" : "fixed top-0 right-0 hidden md:block md:relative md:flex-row md:justify-between"}>
+                        <div className="flex flex-col md:flex-row gap-4 md:gap-0 md:mt-0 px-4 py-4 sm:px-6 sm:py-6 md:p-0 min-h-[100vh] md:min-h-0 min-w-[50vw] md:min-w-0 bg-transparent z-1 rounded-lg">
                             <li className="text-left cursor-pointer md:hidden">
-                                <span className="material-symbols-rounded hover:text-tangerine" onClick={navbarSidenavToggle}>
+                                <span className="material-symbols-rounded hover:text-azure" onClick={navbarSidenavToggle}>
                                     close
                                 </span>
                             </li>
                             <hr/>
                             <li>
-                                <a className="p-2 block -skew-x-12 w-full cursor-pointer bg-transparent hover:bg-tangerine hover:text-white md:p-3 rounded-md transition duration-500" href="#">About</a>
+                                <a className="p-2 block w-full cursor-pointer bg-transparent hover:bg-azure hover:text-white md:p-3 rounded-bl-lg rounded-tr-lg transition duration-500" href="#">Mapa usluga</a>
                             </li>
                             <hr/>
                             <li>
-                                <a className="p-2 block -skew-x-12 w-full cursor-pointer bg-transparent hover:bg-tangerine hover:text-white md:p-3 rounded-md transition duration-500" href="#">FAQ</a>
+                                <a className="p-2 block w-full cursor-pointer bg-transparent hover:bg-azure hover:text-white md:p-3 rounded-bl-lg rounded-tr-lg transition duration-500" href="#">O nama</a>
                             </li>
                             <hr/>
                             <li>
-                                <a className="p-2 block -skew-x-12 w-full cursor-pointer bg-transparent hover:bg-tangerine hover:text-white md:p-3 rounded-md transition duration-500" href="#">Send a request</a>
-                            </li>
-                            <hr/>
-                            <li>
-                                <a className="p-2 block -skew-x-12 w-full cursor-pointer bg-transparent hover:bg-tangerine hover:text-white md:p-3 rounded-md transition duration-500" href="#">Contact</a>
+                                <a className="p-2 block w-full cursor-pointer bg-transparent hover:bg-azure hover:text-white md:p-3 rounded-bl-lg rounded-tr-lg transition duration-500" href="#">Kontakt</a>
                             </li>
                             <hr/>
                         </div>

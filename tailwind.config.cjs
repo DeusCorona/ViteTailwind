@@ -7,12 +7,11 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        "scarlet" : "#ff2400",
-        "tangerine" : "#f28500",
-        "charcoal" : "#36454f"
+        "azure" : "#039F9F",
+        "charcoal" : "#141D19"
       },
       backgroundImage: {
-        'CTA__image': "linear-gradient(to right, rgba(10, 10, 10, 0.9), rgba(10, 10, 10, 0.9)), url('./src/assets/CTA__image.jpg')"
+        'CTA__image': "linear-gradient(to right, rgba(0, 1, 15, 0.9), rgba(0, 1, 15, 0.9)), url('./src/assets/CTA__image.png')"
       }
     },
   },
