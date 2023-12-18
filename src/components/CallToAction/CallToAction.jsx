@@ -6,7 +6,7 @@ const CallToAction = () => {
         <div className='bg-CTA__image bg-center bg-no-repeat bg-cover bg-blend-darken'>
             <NavBar/>
             <div className='flex flex-col items-center justify-center text-white selection:bg-azure text-center min-h-[90vh]'>
-                <div className='p-4 font-bold hover:font-black text-4xl'>
+                <div className='p-4 fontLexend font-bold hover:font-black text-4xl'>
                     Dental Lazarević
                 </div>
                 <hr className='w-[19rem]'/>

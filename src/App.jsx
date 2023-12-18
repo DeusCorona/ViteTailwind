@@ -17,6 +17,7 @@ function App() {
       <Certified title="Sertifikovan" text="U Lazarević Dental, naš tim sertifikovanih doktora stomatologije ne samo 
       da pruža usluge - oni kreiraju iskustva. Svaki pacijent je za nas jedinstven, a naša posvećenost personalizovanoj 
       usluzi znači da svaki osmeh koji napusti našu ordinaciju odražava individualnost onoga ko ga nosi."/>
+      <Contact title="Kontaktirajte nas"/>
     </>
   );
 }
