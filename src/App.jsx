@@ -2,6 +2,8 @@ import CallToAction from "./components/CallToAction/CallToAction";
 import About from "./components/About/About";
 import Certified from "./components/Cerftified/Certified";
 import Contact from "./components/Contact/Contact";
+import Carousel from "./components/Carousel/Carousel";
+import TOS from "./components/TOS/TOS";
 
 function App() {
 
@@ -18,6 +20,8 @@ function App() {
       da pruža usluge - oni kreiraju iskustva. Svaki pacijent je za nas jedinstven, a naša posvećenost personalizovanoj 
       usluzi znači da svaki osmeh koji napusti našu ordinaciju odražava individualnost onoga ko ga nosi."/>
       <Contact title="Kontaktirajte nas"/>
+      <Carousel/>
+      <TOS/>
     </>
   );
 }

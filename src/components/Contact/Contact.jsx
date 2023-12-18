@@ -21,6 +21,15 @@ const Contact = (props) => {
                     <div>
                         +381 63 12 76 347
                     </div>
+                    <div>
+                        Adresa: Kneza Višeslava 63, Beograd
+                    </div>
+                    <div className='mt-12'>
+                        PONEDELJAK - SREDA - PETAK: 12:00 - 20:00h
+                    </div>
+                    <div>
+                    UTORAK - ČETVRTAK: 10:00 - 18:00h
+                    </div>
                 </div>
                 <div className='max-w-[50vw]'>
                     <img src={Implant} alt="ImplantImg" />

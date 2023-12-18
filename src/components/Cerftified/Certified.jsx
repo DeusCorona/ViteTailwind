@@ -9,7 +9,7 @@ function Certified(props) {
             <hr className='w-full md:w-[2rem] h-[0.1rem] bg-white rounded'/>
         </div>
         <div className='flex flex-col-reverse items-start md:flex-row justify-between gap-8 mt-[2rem]'>
-            <div className='md:w-[25%] lg:w-[20%]'>
+            <div className='md:w-[25%] lg:w-[20%] border-l-4 border-b-4 pl-4 pb-2 rounded'>
                 <img src={Logo} alt="LogoImg" className='rounded-lg hover:shadow-xl shadow-charcoal/90'/>
             </div>
             <div className='flex flex-col gap-8 items-center md:items-start justify-center md:w-[75%] lg:w-[80%]'>
