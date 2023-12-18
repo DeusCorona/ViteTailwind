@@ -30,7 +30,7 @@ const Carousel = () => {
     };
 
     return (
-        <div className='flex flex-col items-center justify-center gap-8 bg-tealgreen text-white p-16 md:px-24'>
+        <div className='flex flex-col items-center justify-center gap-8 bg-tealgreen text-white p-4 md:px-24'>
             <div className='text-4xl fontLexend'>
                 Mapa usluga
             </div>
@@ -38,7 +38,7 @@ const Carousel = () => {
                 <div onClick={previousSlide} className='cursor-pointer hover:bg-azure p-4 rounded'>
                     {"<"}
                 </div>
-                <div className='border-2 rounded p-4 w-[40%]'>
+                <div className='border-2 rounded p-4 w-[40%] font-[200]'>
                     {procedures[slideIndex]}
                 </div>
                 <div onClick={nextSlide} className='cursor-pointer hover:bg-azure p-4 rounded'>
